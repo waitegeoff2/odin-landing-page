@@ -88,7 +88,7 @@ ul {
 .info-title {
     font-size:36px;
     color: #1F2937;
-    weight: 900;
+    font-weight: 900;
 }
 
 .info-pictures {
@@ -107,6 +107,32 @@ ul {
 
 .rounded {
     border-radius:8px
+}
+
+.quote-section {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#E5E7EB;
+    padding-left:400px;
+    padding-right:400px;
+    padding-top:100px;
+    padding-bottom:60px;
+}
+
+.main-quote {
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    font-weight:40;
+    margin:0;
+    padding:0;
+}
+
+.quote-name {
+    margin-left:auto;
+    font-weight:bold;
+    font-size:15px;
 }
 
 
